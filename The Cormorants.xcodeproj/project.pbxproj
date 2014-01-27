@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750864C2189632D300B63371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750864C1189632D300B63371 /* Foundation.framework */; };
+		750864C4189632D300B63371 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750864C3189632D300B63371 /* CoreGraphics.framework */; };
+		750864C6189632D300B63371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750864C5189632D300B63371 /* UIKit.framework */; };
+		750864CC189632D300B63371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 750864CA189632D300B63371 /* InfoPlist.strings */; };
+		750864CE189632D300B63371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 750864CD189632D300B63371 /* main.m */; };
+		750864D2189632D300B63371 /* fasAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 750864D1189632D300B63371 /* fasAppDelegate.m */; };
+		750864D5189632D300B63371 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750864D3189632D300B63371 /* Main_iPhone.storyboard */; };
+		750864D8189632D300B63371 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750864D6189632D300B63371 /* Main_iPad.storyboard */; };
+		750864DB189632D300B63371 /* fasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750864DA189632D300B63371 /* fasViewController.m */; };
+		750864DD189632D300B63371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750864DC189632D300B63371 /* Images.xcassets */; };
+		750864E4189632D300B63371 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750864E3189632D300B63371 /* XCTest.framework */; };
+		750864E5189632D300B63371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750864C1189632D300B63371 /* Foundation.framework */; };
+		750864E6189632D300B63371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750864C5189632D300B63371 /* UIKit.framework */; };
+		750864EE189632D300B63371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 750864EC189632D300B63371 /* InfoPlist.strings */; };
+		750864F0189632D300B63371 /* The_CormorantsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 750864EF189632D300B63371 /* The_CormorantsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		750864E7189632D300B63371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750864B6189632D300B63371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750864BD189632D300B63371;
+			remoteInfo = "The Cormorants";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		750864BE189632D300B63371 /* The Cormorants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Cormorants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750864C1189632D300B63371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		750864C3189632D300B63371 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		750864C5189632D300B63371 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		750864C9189632D300B63371 /* The Cormorants-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Cormorants-Info.plist"; sourceTree = "<group>"; };
+		750864CB189632D300B63371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		750864CD189632D300B63371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		750864CF189632D300B63371 /* The Cormorants-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Cormorants-Prefix.pch"; sourceTree = "<group>"; };
+		750864D0189632D300B63371 /* fasAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fasAppDelegate.h; sourceTree = "<group>"; };
+		750864D1189632D300B63371 /* fasAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fasAppDelegate.m; sourceTree = "<group>"; };
+		750864D4189632D300B63371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		750864D7189632D300B63371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		750864D9189632D300B63371 /* fasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fasViewController.h; sourceTree = "<group>"; };
+		750864DA189632D300B63371 /* fasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fasViewController.m; sourceTree = "<group>"; };
+		750864DC189632D300B63371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		750864E2189632D300B63371 /* The CormorantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The CormorantsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750864E3189632D300B63371 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		750864EB189632D300B63371 /* The CormorantsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The CormorantsTests-Info.plist"; sourceTree = "<group>"; };
+		750864ED189632D300B63371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		750864EF189632D300B63371 /* The_CormorantsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_CormorantsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		750864BB189632D300B63371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750864C4189632D300B63371 /* CoreGraphics.framework in Frameworks */,
+				750864C6189632D300B63371 /* UIKit.framework in Frameworks */,
+				750864C2189632D300B63371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750864DF189632D300B63371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750864E4189632D300B63371 /* XCTest.framework in Frameworks */,
+				750864E6189632D300B63371 /* UIKit.framework in Frameworks */,
+				750864E5189632D300B63371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		750864B5189632D300B63371 = {
+			isa = PBXGroup;
+			children = (
+				750864C7189632D300B63371 /* The Cormorants */,
+				750864E9189632D300B63371 /* The CormorantsTests */,
+				750864C0189632D300B63371 /* Frameworks */,
+				750864BF189632D300B63371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		750864BF189632D300B63371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				750864BE189632D300B63371 /* The Cormorants.app */,
+				750864E2189632D300B63371 /* The CormorantsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		750864C0189632D300B63371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				750864C1189632D300B63371 /* Foundation.framework */,
+				750864C3189632D300B63371 /* CoreGraphics.framework */,
+				750864C5189632D300B63371 /* UIKit.framework */,
+				750864E3189632D300B63371 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		750864C7189632D300B63371 /* The Cormorants */ = {
+			isa = PBXGroup;
+			children = (
+				750864D0189632D300B63371 /* fasAppDelegate.h */,
+				750864D1189632D300B63371 /* fasAppDelegate.m */,
+				750864D3189632D300B63371 /* Main_iPhone.storyboard */,
+				750864D6189632D300B63371 /* Main_iPad.storyboard */,
+				750864D9189632D300B63371 /* fasViewController.h */,
+				750864DA189632D300B63371 /* fasViewController.m */,
+				750864DC189632D300B63371 /* Images.xcassets */,
+				750864C8189632D300B63371 /* Supporting Files */,
+			);
+			path = "The Cormorants";
+			sourceTree = "<group>";
+		};
+		750864C8189632D300B63371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				750864C9189632D300B63371 /* The Cormorants-Info.plist */,
+				750864CA189632D300B63371 /* InfoPlist.strings */,
+				750864CD189632D300B63371 /* main.m */,
+				750864CF189632D300B63371 /* The Cormorants-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		750864E9189632D300B63371 /* The CormorantsTests */ = {
+			isa = PBXGroup;
+			children = (
+				750864EF189632D300B63371 /* The_CormorantsTests.m */,
+				750864EA189632D300B63371 /* Supporting Files */,
+			);
+			path = "The CormorantsTests";
+			sourceTree = "<group>";
+		};
+		750864EA189632D300B63371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				750864EB189632D300B63371 /* The CormorantsTests-Info.plist */,
+				750864EC189632D300B63371 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		750864BD189632D300B63371 /* The Cormorants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750864F3189632D300B63371 /* Build configuration list for PBXNativeTarget "The Cormorants" */;
+			buildPhases = (
+				750864BA189632D300B63371 /* Sources */,
+				750864BB189632D300B63371 /* Frameworks */,
+				750864BC189632D300B63371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Cormorants";
+			productName = "The Cormorants";
+			productReference = 750864BE189632D300B63371 /* The Cormorants.app */;
+			productType = "com.apple.product-type.application";
+		};
+		750864E1189632D300B63371 /* The CormorantsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750864F6189632D300B63371 /* Build configuration list for PBXNativeTarget "The CormorantsTests" */;
+			buildPhases = (
+				750864DE189632D300B63371 /* Sources */,
+				750864DF189632D300B63371 /* Frameworks */,
+				750864E0189632D300B63371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750864E8189632D300B63371 /* PBXTargetDependency */,
+			);
+			name = "The CormorantsTests";
+			productName = "The CormorantsTests";
+			productReference = 750864E2189632D300B63371 /* The CormorantsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		750864B6189632D300B63371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = fas;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tyler Shewbert";
+				TargetAttributes = {
+					750864E1189632D300B63371 = {
+						TestTargetID = 750864BD189632D300B63371;
+					};
+				};
+			};
+			buildConfigurationList = 750864B9189632D300B63371 /* Build configuration list for PBXProject "The Cormorants" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 750864B5189632D300B63371;
+			productRefGroup = 750864BF189632D300B63371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				750864BD189632D300B63371 /* The Cormorants */,
+				750864E1189632D300B63371 /* The CormorantsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		750864BC189632D300B63371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750864D8189632D300B63371 /* Main_iPad.storyboard in Resources */,
+				750864DD189632D300B63371 /* Images.xcassets in Resources */,
+				750864D5189632D300B63371 /* Main_iPhone.storyboard in Resources */,
+				750864CC189632D300B63371 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750864E0189632D300B63371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750864EE189632D300B63371 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		750864BA189632D300B63371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750864DB189632D300B63371 /* fasViewController.m in Sources */,
+				750864CE189632D300B63371 /* main.m in Sources */,
+				750864D2189632D300B63371 /* fasAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750864DE189632D300B63371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750864F0189632D300B63371 /* The_CormorantsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		750864E8189632D300B63371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750864BD189632D300B63371 /* The Cormorants */;
+			targetProxy = 750864E7189632D300B63371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		750864CA189632D300B63371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750864CB189632D300B63371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		750864D3189632D300B63371 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750864D4189632D300B63371 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		750864D6189632D300B63371 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750864D7189632D300B63371 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		750864EC189632D300B63371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750864ED189632D300B63371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		750864F1189632D300B63371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		750864F2189632D300B63371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		750864F4189632D300B63371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Cormorants/The Cormorants-Prefix.pch";
+				INFOPLIST_FILE = "The Cormorants/The Cormorants-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		750864F5189632D300B63371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Cormorants/The Cormorants-Prefix.pch";
+				INFOPLIST_FILE = "The Cormorants/The Cormorants-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		750864F7189632D300B63371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Cormorants.app/The Cormorants";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Cormorants/The Cormorants-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The CormorantsTests/The CormorantsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		750864F8189632D300B63371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Cormorants.app/The Cormorants";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Cormorants/The Cormorants-Prefix.pch";
+				INFOPLIST_FILE = "The CormorantsTests/The CormorantsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		750864B9189632D300B63371 /* Build configuration list for PBXProject "The Cormorants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750864F1189632D300B63371 /* Debug */,
+				750864F2189632D300B63371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750864F3189632D300B63371 /* Build configuration list for PBXNativeTarget "The Cormorants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750864F4189632D300B63371 /* Debug */,
+				750864F5189632D300B63371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		750864F6189632D300B63371 /* Build configuration list for PBXNativeTarget "The CormorantsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750864F7189632D300B63371 /* Debug */,
+				750864F8189632D300B63371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 750864B6189632D300B63371 /* Project object */;
+}
